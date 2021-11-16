@@ -1,0 +1,82 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+figure{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.text-yellow{
+    color: goldenrod;
+}
+.text-green{
+    color: green;
+}
+/*menu nav*/
+.main-menu ul{
+    list-style-type: none;
+    position: fixed;
+    top:20px;
+    right: 50px;
+    z-index: 1;
+}
+.main-menu ul li{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+
+    
+    
+}
+.main-menu li a{
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    height: 100%;
+    
+/*pages*/
+}
+section{
+    height: 100vh;
+    position: relative;
+}
+#vans{
+    background-color: red;
+}
+#adidas{
+    background-color: green;
+}
+#converse{
+    background-color: yellow;
+}
+
+.title {
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    bottom:10%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
